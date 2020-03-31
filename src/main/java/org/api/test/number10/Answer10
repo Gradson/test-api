@@ -1,0 +1,2 @@
+Não sei se entendi bem e considerando que trabalhei muito pouco com o Elastic Search, eu utilizaria um alias.
+Creio que assim ficaria mais fácil reindexar, caso seja necessário

@@ -1,0 +1,10 @@
+Eu criaria um endpoint para iniciar o processamento e um de monitoramento. No caso, afim de simplficar, estou pensando num
+gerador de pdf (exmeplo).
+
+com o primeiro endpoint(start) eu daria início ao processamento e retornaria o tempo estimado de espera, uma vez que este é conhecido
+se fosse possível ter um endpoint de callback, para quando o pdf(processamento) estiver concluído, esse calback possa ser chamado.
+Outra alternativa seria um endpoint que verifica se o processamento acabou (e permitir que o pdf esteja disponível para download)
+
+Se houvesse diversas chamadas a esse processamento, eu poderia tbm usar uma fila para ordenar as chamadas dos inúmeros clientes, evitando a sobrecarga.
+
+Uma outra alternativa, imaginando que muitas chamadas fossem iguais, poderia-se utilizar de cache.
