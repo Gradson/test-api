@@ -1,2 +1,3 @@
 O​ Parallel ​ usa várias threads para varrer e compactar os dados não utilizados pequenos e uma única thread para coletar os lixo maiores. Usado no Jvm por padrão.
 Já o CMS é como o parallel, contudo no recolhimento de lixos maiores, ele utiliza multithreads, sendo assim, o consumo de memória aumenta. Utilizado para GUI, onde a interrupção de processamento não é interessante.
+
